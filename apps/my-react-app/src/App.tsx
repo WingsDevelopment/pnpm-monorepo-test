@@ -1,5 +1,4 @@
 import { Button } from "shared-ui";
-
 import "./App.css";
 
 function App() {
@@ -13,9 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Button onClick={() => window.alert("clicked!")}>
-        Clic1qweqw xxek me!!
-      </Button>
+      <Button onClick={() => window.alert("clicked!")}>e</Button>
     </div>
   );
 }
